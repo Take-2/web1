@@ -1,21 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<title> Web1-HTML</title>
-<meta charset="utf-8">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Box</title>
+  </head>
 
-<body>
+  <body>
     <h1> <a href="index.html" target="_self">WEB</a></h1>
-<ol>
-    <li><a href=1.html target="_self">HTML</a></li>
-    <li><a href=2.html target="_self">CSS</a></li>
-    <li><a href=3.html target="_self">Java Script</a></li>
-</ol>
 
-<h2>CSS</h2>
+    <div id="grid">
+      <ul>
+        <li><a href=1.html target="_self" class="saw">HTML</a></li>
+        <li><a href=2.html target="_self" class="saw" id="active">CSS</a></li>
+        <li><a href=3.html target="_self">Java Script</a></li>
+      </ul>
 
-<p style="margin-top:10px;"><U>Cascading Style Sheets (CSS)</U> is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications. </p>
+      <div id="article">
+        <h2>CSS란 무엇인가?</h2>
+        <p><U>Cascading Style Sheets (CSS)</U> is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        <p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, the development of various parts of CSS specification was done synchronously, which allowed the versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers.</p>
+        <p>After CSS 2.1, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Instead of versioning the CSS specification, W3C now periodically takes a snapshot of the latest stable state of the CSS specification and individual modules progress. CSS modules now have version numbers, or levels, such as CSS Color Module Level 5.</p>
+      </div>
+    </div>
 
-</body>
+  </body>
 </html>
